@@ -1,0 +1,58 @@
+<view>
+<i-tabs current="{{ current }}" bindchange="handleChange">
+  <i-tab key="1" title="我的攻略"></i-tab>
+  <i-tab key="2" title="我的评论"></i-tab>
+</i-tabs>
+
+<view wx:if="{{tab1}}" class='details'>
+  <view class="longPolling">
+      <view class="Polling">
+        <image src="https://mall.s.maizuo.com/90b7581c565efdf1b3ed8127172d9c87.jpg" />
+        <view class="movement">
+          <text>广澳表角——回到梦的地方</text>
+          <view class="Polling_zho">表角灯塔，又名广澳灯塔。位于粤东沿海汕头港达濠半岛广澳角，既是粤东沿海干线的重要灯塔，又是进出汕头港...</view>
+          <view class="Polling_xia">
+            <text class="pole">156点赞</text>
+            <text class="pore">2018.09.30 22:30</text>
+          </view>
+        </view>
+      </view>
+      <view class="Polling">
+        <image src="https://mall.s.maizuo.com/90b7581c565efdf1b3ed8127172d9c87.jpg" />
+        <view class="movement">
+          <text>锦绣濠江酒店</text>
+          <view class="Polling_zho">汕头锦绣濠江酒店以欧式风格设计，冷暖空调、液晶电视、电话、舒适健康的床上用品，是精英人士追求格调生活...</view>
+          <view class="Polling_xia">
+            <text class="pole"></text>
+            <text class="pore">2018.09.30 22:30</text>
+          </view>
+        </view>
+      </view>
+      <view class="Polling">
+        <image src="https://mall.s.maizuo.com/90b7581c565efdf1b3ed8127172d9c87.jpg" />
+        <view class="movement">
+          <text>潮汕鱼丸</text>
+          <view class="Polling_zho">将海鱼除头去骨，鱼肉拍打搅烂，加上佐料制成丸状而成。...</view>
+          <view class="Polling_xia">
+            <text class="pole">#年轻人</text>
+            <text class="pore">2018.09.30 22:30</text>
+          </view>
+        </view>
+      </view>
+      <view class="Polling">
+        <image src="https://mall.s.maizuo.com/90b7581c565efdf1b3ed8127172d9c87.jpg" />
+        <view class="movement">
+          <text>古北水镇</text>
+          <view class="Polling_zho">秋天的古北水镇，有着你意想不到的画面，每一眼望过去，都仿佛是一帧帧唯美的壁纸。...</view>
+          <view class="Polling_xia">
+            <text class="pole">256评论</text>
+            <text class="pore">2018.09.30 22:30</text>
+          </view>
+        </view>
+      </view>
+    </view>
+</view>
+<view wx:if="{{tab2}}" class='tab2'>
+  评论
+</view>
+</view>

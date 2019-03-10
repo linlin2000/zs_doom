@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "优惠券",
+  "usingComponents": {
+    "i-tabs": "../../Wux/tabs/index",
+    "i-tab": "../../Wux/tab/index"
+  }
+}

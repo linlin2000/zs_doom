@@ -1,0 +1,21 @@
+<view class="details">
+  <view class="section">
+    <input placeholder="请输入您想要寻找的关键词..." />
+  </view>
+  <view class="longPolling">
+    <view class="Polling">
+      <view class="Polling_le">
+      <image src="https://mall.s.maizuo.com/90b7581c565efdf1b3ed8127172d9c87.jpg" />
+      <text class="Polling_top">{{item.kind}}</text>
+    </view>
+      <view class="movement">
+        <view class="movement_top">广澳表角——回到梦的地方</view>
+        <view class="Polling_zho">表角灯塔，又名广澳灯塔。位于粤东沿海汕头港达濠半岛广澳角，既是粤东沿海干线的重要灯塔，又是进出汕头港...</view>
+        <view class="Polling_xia">
+          <text class="pole">156点赞</text>
+          <text class="pore">2018.09.30 22:30</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

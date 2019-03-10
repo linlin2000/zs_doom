@@ -1,0 +1,55 @@
+i-tab {
+  width: 50%;
+  height: 88rpx;
+}
+i-tab .i-tabs-tab-title {
+  font-size: 30rpx;
+  color: #5c8fff;
+}
+.details {
+  background-color: #ccc;
+}
+.details .longPolling {
+  background-color: #fff;
+  padding: 0 20rpx;
+}
+.details .longPolling .Polling {
+  padding: 20rpx 0;
+  height: 180rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.details .longPolling .Polling image {
+  width: 240rpx;
+  height: 180rpx;
+  float: left;
+}
+.details .longPolling .Polling .movement {
+  float: left;
+  margin-left: 22rpx;
+  width: 447rpx;
+}
+.details .longPolling .Polling .movement text {
+  height: 40rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.details .longPolling .Polling .movement .Polling_zho {
+  font-size: 24rpx;
+  color: #999;
+  height: 90rpx;
+}
+.details .longPolling .Polling .movement .Polling_xia {
+  margin-top: 10rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.details .longPolling .Polling .movement .Polling_xia .pole {
+  float: left;
+  font-size: 20rpx;
+  color: #999;
+}
+.details .longPolling .Polling .movement .Polling_xia .pore {
+  float: right;
+  font-size: 20rpx;
+  color: #999;
+}

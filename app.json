@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/navigation/navigation",
+    "pages/personal/personal",
+    "pages/list/list",
+    "pages/strategy/strategy",
+    "pages/discount/discount",
+    "pages/investment/investment",
+    "pages/haogong/haogong",
+    "pages/parkinglot/parkinglot"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "濠江",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "吃喝玩乐",
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/tabs/home.png",
+        "selectedIconPath": "assets/tabs/home-active.png"
+      },
+      {
+        "text": "地图导航",
+        "pagePath": "pages/navigation/navigation",
+        "iconPath": "assets/tabs/orders.png",
+        "selectedIconPath": "assets/tabs/orders-active.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/personal/personal",
+        "iconPath": "assets/tabs/profile.png",
+        "selectedIconPath": "assets/tabs/profile-active.png"
+      }
+    ]
+  }
+}

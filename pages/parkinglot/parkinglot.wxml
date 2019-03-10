@@ -1,0 +1,28 @@
+<!-- 头部筛选 -->
+<view class="parkinglot">
+  <i-tabs current="{{ current }}" bindchange="handleChange">
+    <i-tab key="1" title="附近▼"></i-tab>
+    <i-tab key="2" title="排序▼"></i-tab>
+  </i-tabs>
+  <view class="pick-container {{needAnimation ? (openPicker ? 'slidown' : 'slidup') : ''}}">
+    <view class="pick_lin {{item.link?'link':''}}" wx:for="{{radiuss}}" wx:key="index" bindtap="screen" data-menuItem="{{item}}" >{{item.name}} </view>
+  </view>
+  <view class="pick-container {{needAnimations ? (openPickers ? 'slidown' : 'slidup') : ''}}">
+    <view class="pick_lin link" >离我最近</view>
+  </view>
+</view>
+<!-- 停车场 -->
+<view class="contact">
+  <view class="centre">
+    <view class="centre_ge" wx:for="{{searchAddress}}" wx:key="index">
+      <view class="centre_le">
+        <view class="centre_top">{{item.name}}</view>
+        <view class="centre_bott">{{item.distance}}km  |  {{item.address}}</view>
+      </view>
+      <view class="centre_re" bindtap="parkclick" data-menuItem="{{item}}">
+        <image src="https://csdnimg.cn/pubfooter/images/csdn-kf.png" />
+        到这去
+      </view>
+    </view>
+  </view>
+</view>

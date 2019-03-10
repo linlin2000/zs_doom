@@ -1,0 +1,82 @@
+.details {
+  background-color: #ccc;
+  padding-top: 100rpx;
+}
+.details .section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  padding: 14rpx 20rpx;
+}
+.details .section input {
+  width: 710rpx;
+  height: 60rpx;
+  border: 1rpx solid #ccc;
+  box-sizing: border-box;
+  border-radius: 30rpx;
+  padding-left: 20rpx;
+  font-size: 26rpx;
+  background-color: #f2f2f2;
+}
+.details .longPolling {
+  background-color: #fff;
+  padding: 0 20rpx;
+}
+.details .longPolling .Polling {
+  padding: 20rpx 0;
+  height: 180rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.details .longPolling .Polling .Polling_le {
+  position: relative;
+  float: left;
+  width: 240rpx;
+  height: 180rpx;
+}
+.details .longPolling .Polling .Polling_le image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.details .longPolling .Polling .Polling_le .Polling_top {
+  position: absolute;
+  left: 10rpx;
+  top: 10rpx;
+  font-size: 20rpx;
+  color: #fff;
+  text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.details .longPolling .Polling .movement {
+  float: right;
+  margin-left: 22rpx;
+  width: 447rpx;
+}
+.details .longPolling .Polling .movement .movement_top {
+  font-size: 30rpx;
+  color: #333;
+}
+.details .longPolling .Polling .movement .Polling_zho {
+  display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+overflow: hidden;
+  font-size: 24rpx;
+  color: #999;
+  height: 100rpx;
+}
+.details .longPolling .Polling .movement .Polling_xia {
+  display: flex;
+  justify-content: space-between;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.details .longPolling .Polling .movement .Polling_xia .pole {
+  font-size: 20rpx;
+  color: #999;
+}
+.details .longPolling .Polling .movement .Polling_xia .pore {
+  font-size: 20rpx;
+  color: #999;
+}

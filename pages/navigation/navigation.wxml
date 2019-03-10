@@ -1,0 +1,10 @@
+<view class="section">
+  <input placeholder="请输入您想要寻找的关键词..." />
+</view>
+<view class="navigation">
+  <map id="myMap" latitude="{{latitude}}" bindmarkertap='gotohere' longitude="{{longitude}}" markers="{{markers}}" show-location></map>
+  <cover-view class="navigation_bott">
+    <cover-view class="navigation_fl" bindtap="parkinglots">停车场</cover-view>
+    <cover-view class="navigation_fr">到这去</cover-view>
+  </cover-view>
+</view>

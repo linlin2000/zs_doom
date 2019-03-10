@@ -1,0 +1,14 @@
+<view class="content-container">
+  <view class="pick-header" bindtap="onPickHeaderClick">附近</view>
+  <view class="pick-container {{needAnimation ? (openPicker ? 'slidown' : 'slidup') : ''}}">
+    <view>筛选项 pick-container view z-index:505</view>
+    <view>筛选项 pick-container view z-index:50</view>
+  </view>
+
+  <view class="pick-header" bindtap="onPickHeaderClicks">附近</view>
+  <view class="pick-container {{needAnimations ? (openPickers ? 'slidown' : 'slidup') : ''}}">
+    <view>筛选项 pick-container view z-index:50</view>
+    <view>筛选项 pick-container view z-index:50</view>
+  </view>
+  
+</view>

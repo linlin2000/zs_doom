@@ -1,0 +1,60 @@
+
+.person {
+  height: 100%;
+  background-color: #eee;
+}
+.person .sculpture {
+  width: 750rpx;
+  height: 300rpx;
+  padding: 45rpx 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 34rpx;
+  color: #333;
+  background-color: #fff;
+  margin-bottom: 50rpx;
+}
+.person .sculpture .sculpture_img {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  margin-bottom: 30rpx;
+  padding: 0;
+}
+.person .sculpture .sculpture_img image {
+  width: 100%;
+  height: 100%;
+  border-radius: 70rpx;
+}
+.person .centre {
+  padding: 20rpx;
+  background-color: #fff;
+}
+.person .centre .centre_ge {
+  height: 102rpx;
+  line-height: 102rpx;
+  padding: 0 30rpx 0 50rpx;
+  font-size: 28rpx;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+}
+.person .centre .centre_ge .centre_in {
+  float: left;
+  height: 100%;
+  width: 50rpx;
+  text-align: center;
+  margin-right: 20rpx;
+  box-sizing: border-box;
+}
+.person .centre .centre_ge .centre_le {
+  float: left;
+  color: #333;
+}
+.person .centre .centre_ge .centre_re {
+  float: right;
+  color: #999;
+}

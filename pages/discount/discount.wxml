@@ -1,0 +1,14 @@
+<view>
+  <i-tabs current="{{ current }}" bindchange="handleChange">
+    <i-tab key="1" title="附近"></i-tab>
+    <i-tab key="2" title="排序"></i-tab>
+  </i-tabs>
+  <view class="pick-container {{needAnimation ? (openPicker ? 'slidown' : 'slidup') : ''}}">
+    <view>筛选项 pick-container view z-index:505</view>
+    <view>筛选项 pick-container view z-index:50</view>
+  </view>
+  <view class="pick-container {{needAnimations ? (openPickers ? 'slidown' : 'slidup') : ''}}">
+    <view>筛选项 pick-container view z-index:50</view>
+    <view>筛选项 pick-container view z-index:50</view>
+  </view>
+</view>

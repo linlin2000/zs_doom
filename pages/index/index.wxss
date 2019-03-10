@@ -1,0 +1,172 @@
+.section {
+  padding: 8rpx 0;
+}
+.section text {
+  float: left;
+  height: 100%;
+  font-size: 30rpx;
+  line-height: 56rpx;
+  color: #333333;
+  padding: 0 20rpx;
+}
+.section input {
+  height: 60rpx;
+  border: 1rpx solid #ccc;
+  box-sizing: border-box;
+  border-radius: 30rpx;
+  padding-left: 20rpx;
+  margin-right: 44rpx;
+  font-size: 26rpx;
+}
+.banner {
+  height: 400rpx;
+}
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+.grids {
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 1rpx solid #eee;
+  border-top: 1rpx solid #eee;
+  background-color: #fff;
+}
+.grids .item {
+  width: 25%;
+  height: 180rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 26rpx;
+  box-sizing: border-box;
+}
+.grids .item image {
+  width: 70rpx;
+  height: 70rpx;
+  margin-bottom: 12rpx;
+}
+.selection {
+  height: 340rpx;
+  width: 750rpx;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+}
+.selection .scenic {
+  width: 100%;
+  padding: 20rpx 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.selection .scenic ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.selection .scenic .scenic_li {
+  display: inline-block;
+  position: relative;
+  width: 240rpx;
+  height: 240rpx;
+  margin: 0 10rpx;
+}
+.selection .scenic .scenic_li image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.selection .scenic .scenic_li .scenic_top {
+  position: absolute;
+  left: 10rpx;
+  top: 10rpx;
+  font-size: 20rpx;
+  color: #fff;
+  text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0.5;
+}
+.selection .scenic .scenic_li .scenic_bott {
+  position: absolute;
+  left: 20rpx;
+  bottom: 20rpx;
+  font-size: 26rpx;
+  color: #ffffff;
+}
+.spot {
+  height: 50rpx;
+  box-sizing: border-box;
+  padding: 16rpx 10rpx 0 10rpx;
+}
+.spot .spotLeft {
+  float: left;
+  font-size: 32rpx;
+  color: #333;
+}
+.spot .spotRight {
+  padding-top: 5rpx;
+  float: right;
+  font-size: 24rpx;
+  color: #999;
+}
+.longPolling {
+  padding: 0 20rpx;
+}
+.longPolling .Polling {
+  padding-top: 20rpx;
+  height: 220rpx;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+}
+.longPolling .Polling .Polling_le {
+  position: relative;
+  float: left;
+  width: 240rpx;
+  height: 180rpx;
+}
+.longPolling .Polling .Polling_le image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.longPolling .Polling .Polling_le .Polling_top {
+  position: absolute;
+  left: 10rpx;
+  top: 10rpx;
+  font-size: 20rpx;
+  color: #fff;
+  text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.longPolling .Polling .movement {
+  float: right;
+  margin-left: 22rpx;
+  width: 447rpx;
+}
+.longPolling .Polling .movement .movement_top {
+  font-size: 30rpx;
+  color: #333;
+}
+.longPolling .Polling .movement .Polling_zho {
+  display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+overflow: hidden;
+  font-size: 24rpx;
+  color: #999;
+  height: 100rpx;
+}
+.longPolling .Polling .movement .Polling_xia {
+  display: flex;
+  justify-content: space-between;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.longPolling .Polling .movement .Polling_xia .pole {
+  font-size: 20rpx;
+  color: #999;
+}
+.longPolling .Polling .movement .Polling_xia .pore {
+  font-size: 20rpx;
+  color: #999;
+}

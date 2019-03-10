@@ -1,0 +1,60 @@
+<view class="section">
+  <text>{{getWeather.location}} {{getWeather.nowTmp}}℃</text>
+  <input bindblur="bindKeyInput" placeholder="请输入您想要寻找的关键词..." />
+</view>
+<swiper class="banner" autoplay="true" circular="true" indicator-dots="true" indicator-active-color="#5c8fff">
+  <swiper-item wx:for="{{carousel}}" wx:key="{{Id}}">
+    <image src="{{item.Img}}" />
+  </swiper-item>
+</swiper>
+<view class="grids">
+  <navigator class="item" wx:for="{{categories}}" wx:key="{{id}}" url="{{item.page}}">
+    <image src="{{item.icon}}" />
+    <text>{{item.name}}</text>
+  </navigator>
+</view>
+<view class="selection">
+  <view class="spot">
+    <view class="spotLeft">景点精选</view>
+    <navigator url="/pages/investment/investment" class="spotRight">全部 ></navigator>
+  </view>
+  <scroll-view class="scenic" scroll-x="true">
+    <view class="scenic_li" wx:for="{{getRecommendData}}" wx:key="{{Id}}">
+      <image src="{{item.Img}}" />
+      <text class="scenic_bott">{{item.Company}}</text>
+    </view>
+  </scroll-view>
+</view>
+<view class="selection">
+  <view class="spot">
+    <text class="spotLeft">热点推荐</text>
+    <text class="spotRight">全部 ></text>
+  </view>
+  <scroll-view class="scenic" scroll-x="true">
+    <view class="scenic_li" wx:for="{{hotPoint}}" wx:key="{{Id}}">
+      <image src="{{item.Img}}" />
+      <text class="scenic_top">{{item.kind}}</text>
+      <text class="scenic_bott">{{item.Company}}</text>
+    </view>
+  </scroll-view>
+</view>
+<view class="longPolling">
+  <view class="spot">
+    <view class="spotLeft">景点精选</view>
+    <view class="spotRight">全部 ></view>
+  </view>
+  <view class="Polling" wx:for="{{latestpush}}" wx:key="{{Id}}">
+    <view class="Polling_le">
+      <image src="{{item.Img}}" />
+      <text class="Polling_top">{{item.kind}}</text>
+    </view>
+    <view class="movement">
+      <view class="movement_top">{{item.Company}}</view>
+      <view class="Polling_zho">{{item.Contents}}</view>
+      <view class="Polling_xia">
+        <text class="pole">{{item.Lable}}</text>
+        <text class="pore">{{item.CreateDate}}</text>
+      </view>
+    </view>
+  </view>
+</view>

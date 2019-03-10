@@ -1,0 +1,38 @@
+<view class="particulars" wx:for="{{getSummary}}" wx:key="{{item.id}}">
+  <swiper class="banner" autoplay="true" circular="true">
+    <swiper-item wx:for="{{lunbo}}" wx:key="{{index}}">
+      <image src="{{item}}" />
+    </swiper-item>
+  </swiper>
+  <view class="centre">
+    <view class="particulars_hed">
+      <text>{{item.Name}}</text>
+    </view>
+    <navigator class="centre_ge" url="/pages/strategy/main">
+      <view class="centre_le"><i-icon type="coordinates" size="30" color="#80848f" />{{item.Address}}</view>
+      <view class="centre_re">地图导航 ></view>
+    </navigator>
+  </view>
+  <view class="particulars_middle">
+    <view class="information">基本信息</view>
+    <view class="information_text">{{item.Company}}</view>
+    <view class="information_img">
+      <image src="https://ubmcmm.baidustatic.com/media/v1/0f000PC1-l5h3HBnufB8S0.jpg" />
+    </view>
+  </view>
+  <view class="recommend">
+    <view class="information">店内产品</view>
+    <view class="product_img">
+      <image src="https://ubmcmm.baidustatic.com/media/v1/0f000PC1-l5h3HBnufB8S0.jpg" />
+      <view class="product_text">手工茶具</view>
+    </view>
+    <view class="product_img">
+      <image src="https://ubmcmm.baidustatic.com/media/v1/0f000PC1-l5h3HBnufB8S0.jpg" />
+      <view class="product_text">手工野山茶</view>
+    </view>
+    <view class="product_img">
+      <image src="https://ubmcmm.baidustatic.com/media/v1/0f000PC1-l5h3HBnufB8S0.jpg" />
+      <view class="product_text">精品普洱</view>
+    </view>
+  </view>
+</view>
